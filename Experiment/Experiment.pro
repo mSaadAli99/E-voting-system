@@ -13,7 +13,6 @@ SOURCES += \
     After_voter_login.cpp \
     add_candidate.cpp \
     admin.cpp \
-    after_admin_login.cpp \
     candidates_dashboard.cpp \
     database.cpp \
     main.cpp \
@@ -25,7 +24,6 @@ HEADERS += \
     After_voter_login.h \
     add_candidate.h \
     admin.h \
-    after_admin_login.h \
     candidates_dashboard.h \
     database.h \
     mainpage.h \
@@ -37,7 +35,6 @@ FORMS += \
     Sign_win.ui \
     add_candidate.ui \
     admin.ui \
-    after_admin_login.ui \
     candidates_dashboard.ui \
     mainpage.ui \
     voter_login.ui \

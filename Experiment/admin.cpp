@@ -1,7 +1,7 @@
 #include "admin.h"
 #include "ui_admin.h"
 #include "mainpage.h"
-#include "after_admin_login.h"
+#include "candidates_dashboard.h"
 #include <QMessageBox>
 
 admin::admin(QWidget *parent)
@@ -31,7 +31,7 @@ void admin::on_Admin_log_btn_clicked()
 
     if((ID=="Kashan178" && adpas=="CT-24178")||(ID=="Hassan185" && adpas=="CT-24185")||(ID=="Saad187" && adpas=="CT-24187")){
         hide();
-        After_admin_login* log = new After_admin_login();
+        candidates_dashboard* log = new candidates_dashboard();
         log->show();
     }
     else if(ID.isEmpty() || adpas.isEmpty()) {
