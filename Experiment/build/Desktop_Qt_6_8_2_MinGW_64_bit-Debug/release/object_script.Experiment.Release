@@ -1,7 +1,6 @@
 release/After_voter_login.o
 release/add_candidate.o
 release/admin.o
-release/after_admin_login.o
 release/candidates_dashboard.o
 release/database.o
 release/main.o
@@ -12,7 +11,6 @@ release/qrc_image.o
 release/moc_After_voter_login.o
 release/moc_add_candidate.o
 release/moc_admin.o
-release/moc_after_admin_login.o
 release/moc_candidates_dashboard.o
 release/moc_mainpage.o
 release/moc_voter_login.o
