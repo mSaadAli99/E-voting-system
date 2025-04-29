@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>551</width>
+    <width>589</width>
     <height>427</height>
    </rect>
   </property>
@@ -47,6 +47,7 @@
 /* ===== Input Fields ===== */
 #admin QLineEdit {
     background: white;
+	color : black;
     border: 1px solid #cbd5e0;
     border-radius: 5px;
     padding: 10px;
